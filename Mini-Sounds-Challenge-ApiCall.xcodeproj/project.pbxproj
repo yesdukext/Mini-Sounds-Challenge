@@ -14,6 +14,17 @@
 		5CA1B1CD2C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1CC2C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallTests.swift */; };
 		5CA1B1D72C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1D62C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallUITests.swift */; };
 		5CA1B1D92C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1D82C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallUITestsLaunchTests.swift */; };
+		5CA1B1ED2C88BA5000685486 /* ConfigPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1E52C88BA5000685486 /* ConfigPresenter.swift */; };
+		5CA1B1EE2C88BA5000685486 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1E72C88BA5000685486 /* AppCoordinator.swift */; };
+		5CA1B1EF2C88BA5000685486 /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1E82C88BA5000685486 /* ConfigView.swift */; };
+		5CA1B1F02C88BA5000685486 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1E92C88BA5000685486 /* ErrorView.swift */; };
+		5CA1B1F12C88BA5000685486 /* KillSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1EA2C88BA5000685486 /* KillSwitchView.swift */; };
+		5CA1B1F22C88BA5000685486 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1EB2C88BA5000685486 /* LoadingView.swift */; };
+		5CA1B1F52C88BA8200685486 /* FetchConfigUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1F32C88BA8200685486 /* FetchConfigUseCase.swift */; };
+		5CA1B1F82C88BA8700685486 /* ConfigRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1F62C88BA8700685486 /* ConfigRepository.swift */; };
+		5CA1B1FB2C88BA8F00685486 /* ConfigureResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1F92C88BA8F00685486 /* ConfigureResponse.swift */; };
+		5CA1B1FE2C88BA9500685486 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B1FC2C88BA9500685486 /* NetworkService.swift */; };
+		5CA1B2012C88ED0B00685486 /* InfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1B2002C88ED0B00685486 /* InfoRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		5CA1B1D22C88B95D00685486 /* Mini-Sounds-Challenge-ApiCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mini-Sounds-Challenge-ApiCallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA1B1D62C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_Sounds_Challenge_ApiCallUITests.swift; sourceTree = "<group>"; };
 		5CA1B1D82C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mini_Sounds_Challenge_ApiCallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CA1B1E52C88BA5000685486 /* ConfigPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigPresenter.swift; sourceTree = "<group>"; };
+		5CA1B1E72C88BA5000685486 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5CA1B1E82C88BA5000685486 /* ConfigView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		5CA1B1E92C88BA5000685486 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		5CA1B1EA2C88BA5000685486 /* KillSwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KillSwitchView.swift; sourceTree = "<group>"; };
+		5CA1B1EB2C88BA5000685486 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		5CA1B1F32C88BA8200685486 /* FetchConfigUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchConfigUseCase.swift; sourceTree = "<group>"; };
+		5CA1B1F62C88BA8700685486 /* ConfigRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigRepository.swift; sourceTree = "<group>"; };
+		5CA1B1F92C88BA8F00685486 /* ConfigureResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureResponse.swift; sourceTree = "<group>"; };
+		5CA1B1FC2C88BA9500685486 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5CA1B2002C88ED0B00685486 /* InfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +116,11 @@
 		5CA1B1BA2C88B95C00685486 /* Mini-Sounds-Challenge-ApiCall */ = {
 			isa = PBXGroup;
 			children = (
+				5CA1B1FD2C88BA9500685486 /* Networking */,
+				5CA1B1FA2C88BA8F00685486 /* Model */,
+				5CA1B1F72C88BA8700685486 /* Repo */,
+				5CA1B1F42C88BA8200685486 /* UseCase */,
+				5CA1B1EC2C88BA5000685486 /* View */,
 				5CA1B1BB2C88B95C00685486 /* Mini_Sounds_Challenge_ApiCallApp.swift */,
 				5CA1B1BD2C88B95C00685486 /* ContentView.swift */,
 				5CA1B1BF2C88B95D00685486 /* Assets.xcassets */,
@@ -125,6 +152,68 @@
 				5CA1B1D82C88B95D00685486 /* Mini_Sounds_Challenge_ApiCallUITestsLaunchTests.swift */,
 			);
 			path = "Mini-Sounds-Challenge-ApiCallUITests";
+			sourceTree = "<group>";
+		};
+		5CA1B1E62C88BA5000685486 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1B1E52C88BA5000685486 /* ConfigPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5CA1B1EC2C88BA5000685486 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1B1FF2C88E74B00685486 /* Coordinator */,
+				5CA1B1E62C88BA5000685486 /* Presenter */,
+				5CA1B1E82C88BA5000685486 /* ConfigView.swift */,
+				5CA1B1E92C88BA5000685486 /* ErrorView.swift */,
+				5CA1B1EA2C88BA5000685486 /* KillSwitchView.swift */,
+				5CA1B1EB2C88BA5000685486 /* LoadingView.swift */,
+				5CA1B2002C88ED0B00685486 /* InfoRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CA1B1F42C88BA8200685486 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1B1F32C88BA8200685486 /* FetchConfigUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		5CA1B1F72C88BA8700685486 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1B1F62C88BA8700685486 /* ConfigRepository.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		5CA1B1FA2C88BA8F00685486 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1B1F92C88BA8F00685486 /* ConfigureResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CA1B1FD2C88BA9500685486 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1B1FC2C88BA9500685486 /* NetworkService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5CA1B1FF2C88E74B00685486 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1B1E72C88BA5000685486 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +346,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA1B1F52C88BA8200685486 /* FetchConfigUseCase.swift in Sources */,
+				5CA1B2012C88ED0B00685486 /* InfoRowView.swift in Sources */,
+				5CA1B1F12C88BA5000685486 /* KillSwitchView.swift in Sources */,
+				5CA1B1EE2C88BA5000685486 /* AppCoordinator.swift in Sources */,
+				5CA1B1F02C88BA5000685486 /* ErrorView.swift in Sources */,
+				5CA1B1EF2C88BA5000685486 /* ConfigView.swift in Sources */,
+				5CA1B1FB2C88BA8F00685486 /* ConfigureResponse.swift in Sources */,
 				5CA1B1BE2C88B95C00685486 /* ContentView.swift in Sources */,
+				5CA1B1F22C88BA5000685486 /* LoadingView.swift in Sources */,
+				5CA1B1F82C88BA8700685486 /* ConfigRepository.swift in Sources */,
+				5CA1B1ED2C88BA5000685486 /* ConfigPresenter.swift in Sources */,
+				5CA1B1FE2C88BA9500685486 /* NetworkService.swift in Sources */,
 				5CA1B1BC2C88B95C00685486 /* Mini_Sounds_Challenge_ApiCallApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
