@@ -1,7 +1,4 @@
 //
-//  Mini_Sounds_Challenge_ApiCallTests.swift
-//  Mini-Sounds-Challenge-ApiCallTests
-//
 //  Created by Yves Dukuze on 04/09/2024.
 //
 

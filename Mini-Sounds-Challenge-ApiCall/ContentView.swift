@@ -1,21 +1,15 @@
 //
-//  ContentView.swift
-//  Mini-Sounds-Challenge-ApiCall
-//
 //  Created by Yves Dukuze on 04/09/2024.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    private let coordinator = AppCoordinator()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        coordinator.start()
     }
 }
 
